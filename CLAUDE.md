@@ -100,3 +100,4 @@ Conventional Commits 강제 (commitlint + husky `commit-msg` 훅).
 ## 사용자 규칙
 
 - 컴포넌트는 반드시 named export만 사용한다
+- 대화와 문서는 한글로 작성한다.

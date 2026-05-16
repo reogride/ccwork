@@ -1,0 +1,707 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "App.tsx",
+      "source_location": "L1",
+      "id": "app_tsx",
+      "community": 1,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "App.tsx",
+      "source_location": "L7",
+      "id": "src_app_app",
+      "community": 1,
+      "norm_label": "app()"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "main.tsx",
+      "source_location": "L1",
+      "id": "main_tsx",
+      "community": 1,
+      "norm_label": "main.tsx"
+    },
+    {
+      "label": "test-setup.ts",
+      "file_type": "code",
+      "source_file": "test-setup.ts",
+      "source_location": "L1",
+      "id": "test_setup_ts",
+      "community": 4,
+      "norm_label": "test-setup.ts"
+    },
+    {
+      "label": "notes.ts",
+      "file_type": "code",
+      "source_file": "api/notes.ts",
+      "source_location": "L1",
+      "id": "api_notes_ts",
+      "community": 0,
+      "norm_label": "notes.ts"
+    },
+    {
+      "label": "fetchNotes()",
+      "file_type": "code",
+      "source_file": "api/notes.ts",
+      "source_location": "L5",
+      "id": "api_notes_fetchnotes",
+      "community": 0,
+      "norm_label": "fetchnotes()"
+    },
+    {
+      "label": "createNote()",
+      "file_type": "code",
+      "source_file": "api/notes.ts",
+      "source_location": "L11",
+      "id": "api_notes_createnote",
+      "community": 0,
+      "norm_label": "createnote()"
+    },
+    {
+      "label": "updateNote()",
+      "file_type": "code",
+      "source_file": "api/notes.ts",
+      "source_location": "L24",
+      "id": "api_notes_updatenote",
+      "community": 0,
+      "norm_label": "updatenote()"
+    },
+    {
+      "label": "deleteNote()",
+      "file_type": "code",
+      "source_file": "api/notes.ts",
+      "source_location": "L34",
+      "id": "api_notes_deletenote",
+      "community": 0,
+      "norm_label": "deletenote()"
+    },
+    {
+      "label": "Layout.tsx",
+      "file_type": "code",
+      "source_file": "components/Layout.tsx",
+      "source_location": "L1",
+      "id": "components_layout_tsx",
+      "community": 1,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "LayoutProps",
+      "file_type": "code",
+      "source_file": "components/Layout.tsx",
+      "source_location": "L3",
+      "id": "components_layout_layoutprops",
+      "community": 1,
+      "norm_label": "layoutprops"
+    },
+    {
+      "label": "Layout()",
+      "file_type": "code",
+      "source_file": "components/Layout.tsx",
+      "source_location": "L9",
+      "id": "components_layout_layout",
+      "community": 1,
+      "norm_label": "layout()"
+    },
+    {
+      "label": "NoteEditor.tsx",
+      "file_type": "code",
+      "source_file": "components/NoteEditor.tsx",
+      "source_location": "L1",
+      "id": "components_noteeditor_tsx",
+      "community": 2,
+      "norm_label": "noteeditor.tsx"
+    },
+    {
+      "label": "NoteEditorProps",
+      "file_type": "code",
+      "source_file": "components/NoteEditor.tsx",
+      "source_location": "L4",
+      "id": "components_noteeditor_noteeditorprops",
+      "community": 2,
+      "norm_label": "noteeditorprops"
+    },
+    {
+      "label": "NoteEditor()",
+      "file_type": "code",
+      "source_file": "components/NoteEditor.tsx",
+      "source_location": "L10",
+      "id": "components_noteeditor_noteeditor",
+      "community": 2,
+      "norm_label": "noteeditor()"
+    },
+    {
+      "label": "NoteItem.tsx",
+      "file_type": "code",
+      "source_file": "components/NoteItem.tsx",
+      "source_location": "L1",
+      "id": "components_noteitem_tsx",
+      "community": 3,
+      "norm_label": "noteitem.tsx"
+    },
+    {
+      "label": "NoteItemProps",
+      "file_type": "code",
+      "source_file": "components/NoteItem.tsx",
+      "source_location": "L3",
+      "id": "components_noteitem_noteitemprops",
+      "community": 3,
+      "norm_label": "noteitemprops"
+    },
+    {
+      "label": "NoteItem()",
+      "file_type": "code",
+      "source_file": "components/NoteItem.tsx",
+      "source_location": "L10",
+      "id": "components_noteitem_noteitem",
+      "community": 3,
+      "norm_label": "noteitem()"
+    },
+    {
+      "label": "NoteList.tsx",
+      "file_type": "code",
+      "source_file": "components/NoteList.tsx",
+      "source_location": "L1",
+      "id": "components_notelist_tsx",
+      "community": 3,
+      "norm_label": "notelist.tsx"
+    },
+    {
+      "label": "NoteListProps",
+      "file_type": "code",
+      "source_file": "components/NoteList.tsx",
+      "source_location": "L4",
+      "id": "components_notelist_notelistprops",
+      "community": 3,
+      "norm_label": "notelistprops"
+    },
+    {
+      "label": "NoteList()",
+      "file_type": "code",
+      "source_file": "components/NoteList.tsx",
+      "source_location": "L9",
+      "id": "components_notelist_notelist",
+      "community": 2,
+      "norm_label": "notelist()"
+    },
+    {
+      "label": "NotesContext.tsx",
+      "file_type": "code",
+      "source_file": "context/NotesContext.tsx",
+      "source_location": "L1",
+      "id": "context_notescontext_tsx",
+      "community": 0,
+      "norm_label": "notescontext.tsx"
+    },
+    {
+      "label": "NotesContextType",
+      "file_type": "code",
+      "source_file": "context/NotesContext.tsx",
+      "source_location": "L5",
+      "id": "context_notescontext_notescontexttype",
+      "community": 0,
+      "norm_label": "notescontexttype"
+    },
+    {
+      "label": "NotesContext",
+      "file_type": "code",
+      "source_file": "context/NotesContext.tsx",
+      "source_location": "L14",
+      "id": "context_notescontext_notescontext",
+      "community": 0,
+      "norm_label": "notescontext"
+    },
+    {
+      "label": "NotesProvider()",
+      "file_type": "code",
+      "source_file": "context/NotesContext.tsx",
+      "source_location": "L16",
+      "id": "context_notescontext_notesprovider",
+      "community": 1,
+      "norm_label": "notesprovider()"
+    },
+    {
+      "label": "useNotes()",
+      "file_type": "code",
+      "source_file": "context/NotesContext.tsx",
+      "source_location": "L51",
+      "id": "context_notescontext_usenotes",
+      "community": 2,
+      "norm_label": "usenotes()"
+    },
+    {
+      "label": "note.ts",
+      "file_type": "code",
+      "source_file": "types/note.ts",
+      "source_location": "L1",
+      "id": "types_note_ts",
+      "community": 0,
+      "norm_label": "note.ts"
+    },
+    {
+      "label": "Note",
+      "file_type": "code",
+      "source_file": "types/note.ts",
+      "source_location": "L1",
+      "id": "types_note_note",
+      "community": 0,
+      "norm_label": "note"
+    }
+  ],
+  "links": [
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_tsx",
+      "target": "context_notescontext_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_tsx",
+      "target": "context_notescontext_notesprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_tsx",
+      "target": "components_layout_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_tsx",
+      "target": "components_layout_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_tsx",
+      "target": "components_notelist_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_tsx",
+      "target": "components_notelist_notelist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_tsx",
+      "target": "components_noteeditor_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_tsx",
+      "target": "components_noteeditor_noteeditor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_tsx",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "main_tsx",
+      "target": "app_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/notes.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "api_notes_ts",
+      "target": "types_note_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/notes.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "api_notes_ts",
+      "target": "types_note_note",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/notes.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "api_notes_ts",
+      "target": "api_notes_fetchnotes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/notes.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "api_notes_ts",
+      "target": "api_notes_createnote",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/notes.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "api_notes_ts",
+      "target": "api_notes_updatenote",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/notes.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "api_notes_ts",
+      "target": "api_notes_deletenote",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "context/NotesContext.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "context_notescontext_tsx",
+      "target": "api_notes_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Layout.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_layout_tsx",
+      "target": "components_layout_layoutprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Layout.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "components_layout_tsx",
+      "target": "components_layout_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteEditor.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_noteeditor_tsx",
+      "target": "context_notescontext_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteEditor.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_noteeditor_tsx",
+      "target": "context_notescontext_usenotes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteEditor.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_noteeditor_tsx",
+      "target": "components_noteeditor_noteeditorprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteEditor.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "components_noteeditor_tsx",
+      "target": "components_noteeditor_noteeditor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/NoteEditor.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "components_noteeditor_noteeditor",
+      "target": "context_notescontext_usenotes"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteItem.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_noteitem_tsx",
+      "target": "types_note_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteItem.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_noteitem_tsx",
+      "target": "types_note_note",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteItem.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_noteitem_tsx",
+      "target": "components_noteitem_noteitemprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteItem.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "components_noteitem_tsx",
+      "target": "components_noteitem_noteitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteList.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_notelist_tsx",
+      "target": "components_noteitem_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteList.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_notelist_tsx",
+      "target": "components_noteitem_noteitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteList.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_notelist_tsx",
+      "target": "context_notescontext_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteList.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_notelist_tsx",
+      "target": "context_notescontext_usenotes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteList.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_notelist_tsx",
+      "target": "components_notelist_notelistprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NoteList.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "components_notelist_tsx",
+      "target": "components_notelist_notelist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/NoteList.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "components_notelist_notelist",
+      "target": "context_notescontext_usenotes"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "context/NotesContext.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "context_notescontext_tsx",
+      "target": "types_note_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "context/NotesContext.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "context_notescontext_tsx",
+      "target": "types_note_note",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "context/NotesContext.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "context_notescontext_tsx",
+      "target": "context_notescontext_notescontexttype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "context/NotesContext.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "context_notescontext_tsx",
+      "target": "context_notescontext_notescontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "context/NotesContext.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "context_notescontext_tsx",
+      "target": "context_notescontext_notesprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "context/NotesContext.tsx",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "context_notescontext_tsx",
+      "target": "context_notescontext_usenotes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "types/note.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "types_note_ts",
+      "target": "types_note_note",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "460081e2d2fe1d29d584208f34442f6a48792b81"
+}

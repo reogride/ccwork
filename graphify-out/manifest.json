@@ -1,0 +1,42 @@
+{
+  "J:\\project\\ccwork\\src\\App.tsx": {
+    "mtime": 1778584352.1853318,
+    "hash": "1be3ffbd7d8653bdc12740aac3347884"
+  },
+  "J:\\project\\ccwork\\src\\main.tsx": {
+    "mtime": 1778584352.1883311,
+    "hash": "099c0eb674b8eaf314ae8a2349aee17a"
+  },
+  "J:\\project\\ccwork\\src\\test-setup.ts": {
+    "mtime": 1778584352.18889,
+    "hash": "39529208dfc584ff87969cf460d5f8e5"
+  },
+  "J:\\project\\ccwork\\src\\api\\notes.ts": {
+    "mtime": 1778584352.186331,
+    "hash": "9d4354ce80622e2426c6948f3369e9cc"
+  },
+  "J:\\project\\ccwork\\src\\components\\Layout.tsx": {
+    "mtime": 1778584352.186331,
+    "hash": "b54025313d80970026da3908634408ca"
+  },
+  "J:\\project\\ccwork\\src\\components\\NoteEditor.tsx": {
+    "mtime": 1778585366.5221536,
+    "hash": "375702569973d600d972cb43915cce32"
+  },
+  "J:\\project\\ccwork\\src\\components\\NoteItem.tsx": {
+    "mtime": 1778584352.1873307,
+    "hash": "2393f8de12db1b3083fcc413d5f72506"
+  },
+  "J:\\project\\ccwork\\src\\components\\NoteList.tsx": {
+    "mtime": 1778585372.4229052,
+    "hash": "0d62b9d45c41a1800a9f59cf26198dfa"
+  },
+  "J:\\project\\ccwork\\src\\context\\NotesContext.tsx": {
+    "mtime": 1778585357.8866055,
+    "hash": "4840f093703fbc84345f00760211d736"
+  },
+  "J:\\project\\ccwork\\src\\types\\note.ts": {
+    "mtime": 1778584352.18889,
+    "hash": "8795ace7370728437f2aaa892212842f"
+  }
+}
