@@ -26,14 +26,10 @@ function App() {
   return (
     <NotesProvider>
       <Layout
-        onNewNote={handleNewNote}
+        onCreate={handleNewNote}
         sidebar={<NoteList selectedNoteId={selectedNoteId} onSelect={handleSelectNote} />}
         main={
-          <NoteEditor
-            selectedNoteId={selectedNoteId}
-            isCreating={isCreating}
-            onDone={handleDone}
-          />
+          <NoteEditor selectedNoteId={selectedNoteId} isCreating={isCreating} onDone={handleDone} />
         }
       />
     </NotesProvider>

@@ -79,10 +79,6 @@ db.json             # JSON Server 데이터 파일 (로컬 DB)
 | 로컬 핸들러    | `handle` 접두사     | `handleSave`, `handleSelectNote`, `handleNewNote`      |
 | 상태 불리언    | 형용사형            | `loading`, `saving`, `isCreating`, `isSelected`        |
 
-## 알려진 네이밍 불일치 (미해결)
-
-**`onNewNote` — `on+동사` 패턴 위반** — 나머지 props(`onSelect`, `onDelete`, `onDone`)와 달리 형용사+명사 구조. `onCreate`가 패턴에 맞음.
-
 ## 테스트 환경
 
 - Vitest + jsdom + `@testing-library/react`
