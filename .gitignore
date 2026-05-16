@@ -20,6 +20,10 @@ dist-ssr/
 # Claude Code
 .claude/settings.local.json
 
+# Graphify 캐시
+src/graphify-out/
+graphify-out/
+
 # Editor
 .vscode/*
 !.vscode/extensions.json

@@ -93,6 +93,10 @@ React 19, TypeScript 5.7, Vite 6, Tailwind CSS 4 (Vite 플러그인 방식), JSO
 Conventional Commits 강제 (commitlint + husky `commit-msg` 훅).  
 상세 규칙 및 예시 → [docs/commit-guidelines.md](docs/commit-guidelines.md)
 
+## 도메인 용어집
+
+@docs/CONTEXT.md
+
 ## 사용자 규칙
 
 - 컴포넌트는 반드시 named export만 사용한다
