@@ -91,3 +91,7 @@ db.json             # JSON Server 데이터 파일 (로컬 DB)
 ## 스택
 
 React 19, TypeScript 5.7, Vite 6, Tailwind CSS 4 (Vite 플러그인 방식), JSON Server 1.x beta
+
+## 사용자 규칙
+
+- 컴포넌트는 반드시 named export만 사용한다
