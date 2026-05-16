@@ -70,14 +70,14 @@ db.json             # JSON Server 데이터 파일 (로컬 DB)
 
 ## 네이밍 패턴
 
-| 대상 | 규칙 | 예시 |
-|------|------|------|
-| 컴포넌트 파일 | PascalCase | `NoteEditor.tsx` |
-| API 함수 | 동사+명사 camelCase | `fetchNotes`, `createNote`, `updateNote`, `deleteNote` |
-| Context 핸들러 | 동사+명사 camelCase | `createNote`, `updateNote`, `deleteNote` |
-| Props 이벤트 | `on` 접두사 | `onSelect`, `onDelete`, `onDone`, `onNewNote` |
-| 로컬 핸들러 | `handle` 접두사 | `handleSave`, `handleSelectNote`, `handleNewNote` |
-| 상태 불리언 | 형용사형 | `loading`, `saving`, `isCreating`, `isSelected` |
+| 대상           | 규칙                | 예시                                                   |
+| -------------- | ------------------- | ------------------------------------------------------ |
+| 컴포넌트 파일  | PascalCase          | `NoteEditor.tsx`                                       |
+| API 함수       | 동사+명사 camelCase | `fetchNotes`, `createNote`, `updateNote`, `deleteNote` |
+| Context 핸들러 | 동사+명사 camelCase | `createNote`, `updateNote`, `deleteNote`               |
+| Props 이벤트   | `on` 접두사         | `onSelect`, `onDelete`, `onDone`, `onNewNote`          |
+| 로컬 핸들러    | `handle` 접두사     | `handleSave`, `handleSelectNote`, `handleNewNote`      |
+| 상태 불리언    | 형용사형            | `loading`, `saving`, `isCreating`, `isSelected`        |
 
 ## 알려진 네이밍 불일치 (미해결)
 
@@ -91,6 +91,11 @@ db.json             # JSON Server 데이터 파일 (로컬 DB)
 ## 스택
 
 React 19, TypeScript 5.7, Vite 6, Tailwind CSS 4 (Vite 플러그인 방식), JSON Server 1.x beta
+
+## 커밋 규칙
+
+Conventional Commits 강제 (commitlint + husky `commit-msg` 훅).  
+상세 규칙 및 예시 → [docs/commit-guidelines.md](docs/commit-guidelines.md)
 
 ## 사용자 규칙
 
