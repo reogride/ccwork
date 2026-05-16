@@ -1,12 +1,12 @@
 import { ReactNode } from 'react';
 
 interface LayoutProps {
-  onNewNote: () => void;
+  onCreate: () => void;
   sidebar: ReactNode;
   main: ReactNode;
 }
 
-export function Layout({ onNewNote, sidebar, main }: LayoutProps) {
+export function Layout({ onCreate, sidebar, main }: LayoutProps) {
   return (
     <div className="min-h-screen bg-background">
       {/* 헤더 */}
@@ -18,7 +18,7 @@ export function Layout({ onNewNote, sidebar, main }: LayoutProps) {
           📝 Notes
         </h1>
         <button
-          onClick={onNewNote}
+          onClick={onCreate}
           className="bg-foreground text-card px-4 py-2 rounded-xl text-sm font-semibold hover:opacity-75 transition-opacity cursor-pointer"
         >
           + 새 노트
